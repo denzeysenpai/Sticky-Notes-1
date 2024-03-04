@@ -1,0 +1,16 @@
+In this project I have learned:
+
+1. confirm()
+2. code was too simple so maybe I need to upgrade it in the future.
+3. the 'order: order-pos;' in CSS, dictates the order of the element 
+    its container.
+4. grid-templates like 'grid-template-columns: repeat(autofill, pixels)'.
+5. The appendChild() method of the Node interface adds 
+    a node to the end of the list of children of a specified parent node.
+
+
+
+Things I need to improve on:
+
+1. Definitely javaScript code quality and knowledge(?).
+2. CSS design, mainly Grids, Flexbox, Typography and color choices.

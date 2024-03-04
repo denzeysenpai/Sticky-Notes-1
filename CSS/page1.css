@@ -1,0 +1,59 @@
+* {
+    font-family: "Outfit";
+}
+
+body {
+    margin: 0;
+    background-color: rgb(230, 149, 0);
+}
+
+#app {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    padding: 24px;
+    gap: 24px;
+}
+
+.note {
+    height: 200px;
+    box-sizing: border-box;
+    padding: 16px;
+    border-width: 0px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(36, 36, 36);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.514);
+    resize: none;
+}
+
+.add-button {
+    height: 200px;
+    box-sizing: border-box;
+    padding: 16px;
+    border-width: 0px;
+    border-radius: 10px;
+    color: white;
+    font-size: 80px;
+    background-color: rgb(36, 36, 36);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.514);
+    transition: all 0.1s;
+    align-self: flex-end;
+    order: 50;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    color: rgb(255, 202, 55);
+    font-size: 95px;
+    background-color: rgb(22, 22, 22);
+    transition: all 0.1s;
+}
+
+.area {
+    background-color: rgb(22, 22, 22);
+    background-image: linear-gradient(rgb(30,30,30),rgb(22,22,22),rgb(16,16,16));
+    color: white;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
